@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111; /* Dark gray background */
+  color: #fff; /* White text color */
+  min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+  display: flex; /* Use flexbox to vertically center content */
+  flex-direction: column; /* Stack children vertically */
+}
+
+.container {
+  flex: 1; /* Allow the container to grow and take up available space */
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #222; /* Slightly lighter gray header background */
+  color: #fff; /* White text color for header */
+}
+
+/* Rest of your existing CSS for the second page */
+
+
+header h1 {
+  font-size: 36px;
+  margin: 10px 0;
+  font-weight: bold; /* Make the name bold */
+}
+
+header p {
+  font-size: 18px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #444; /* Slightly darker gray background for content */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Slightly darker shadow with more spread */
+}
+
+.intro {
+  margin: 20px 0;
+  background-color: #222; /* Darker gray background for the "About Me" section */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.intro h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.intro p {
+  font-size: 16px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #040404; /* Slightly darker blue on hover */
+}
+
+.certificate-button {
+  display: inline-block;
+  background-color: #007BFF; /* Blue background for the button */
+  color: #fff; /* White text color for the button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s; /* Smooth background transition on hover */
+}
+
+.certificate-button:hover {
+  background-color: #0056b3; /* Slightly darker blue on hover */
+}
+
+
+/* Existing CSS styles */
+
+/* Add spacing and styling for the points */
+.intro ul {
+  list-style-type: disc;
+  padding: 0 0 0 20px; /* Adjust left padding for better spacing */
+}
+
+.intro li {
+  margin-bottom: 10px; /* Increase vertical spacing between points */
+  font-size: 16px;
+}
+
+/* Add this CSS for the experience date */
+.experience-date {
+  font-size: 14px; /* Smaller text size */
+  margin-left: auto; /* Push it to the right */
+}
+
+.experience-title {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+

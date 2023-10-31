@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Dark gray background */
+    color: #fff; /* White text color */
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+    display: flex; /* Use flexbox to vertically center content */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.container {
+    flex: 1; /* Allow the container to grow and take up available space */
+}
+
+a {
+    color: rgb(0, 255, 55); /* Change the link color to red */
+    text-decoration: none; /* Remove underlines from links */
+}
+.project{
+    margin-bottom: 20px;
+    background-color: #222; /* Dark gray background for each certificate */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+    color: blue; /* Change link color on hover (e.g., back to blue) */
+}
+
+.project h2 {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between the title and date */
+    align-items: center; /* Vertically center items */
+}
+
+.project h2 h6 {
+    font-size: 14px; /* Adjust font size for the date */
+}
+
+.project ul {
+    list-style-type: disc; /* Use disc bullets for the list */
+    padding-left: 20px; /* Adjust left padding for better alignment */
+    margin-bottom: 20px; /* Increase vertical spacing between the lists */
+}
+
+.project ul li {
+    font-size: 18px;
+    margin: 10px 0; /* Increase vertical spacing between list items */
+}
+
+.project a {
+    color: #007BFF; /* Blue text color for project links */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition on link color */
+}
+
+.project a:hover {
+    color: #0056b3; /* Slightly darker blue on hover */
+}
+
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #222; /* Slightly darker gray header background */
+    color: #fff; /* White text color for the header */
+}
+
+
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0; /* Reduced margin for simplicity */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Dark gray background for content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Slightly darker shadow */
+}
+
+.contact-icons {
+    text-align: right; /* Align the content to the right */
+    position: relative; /* Create a positioning context for absolute positioning */
+}
+
+
+.contact-icons a {
+    position: absolute; /* Position the anchor elements absolutely */
+    bottom: 0; /* Align the elements to the bottom */
+    right: 0; /* Align the elements to the right */
+    margin: 0 10px;
+}
+
+
+.contact-icons img {
+    width: 50px;
+    height: 50px; /* Set the height and width to the same value to make it a circle */
+    border-radius: 50%; /* Apply border-radius to make it circular */
+}
+
+/* Style the GitHub logo and apply a green border */
+.github-icon {
+    display: inline-block;
+    position: relative;
+}
+
+.github-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #9be2af; /* Green border around the GitHub logo */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Change the border color on hover to match the link color */
+.github-icon:hover img {
+    border-color: #0056b3;
+}
+
+
+
+

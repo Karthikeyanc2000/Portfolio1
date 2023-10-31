@@ -1,0 +1,73 @@
+/* app-navbar.component.css */
+a {
+  scroll-behavior: smooth;
+}
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-brand a {
+    text-decoration: underline; /* Add underline to mimic a link */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .navbar-menu ul li a:hover {
+    color: #007BFF;
+  }
+  
+  /* Style for the Resume link button */
+  .resume-button a {
+    background-color: #007BFF; /* Button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-button a:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+
+  .active-link{
+    font-weight:bolder;
+    color: #ffe6a3;
+    text-decoration:underline;
+     }
+
+  

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Dark gray background */
+    color: #fff; /* White text color */
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+    display: flex; /* Use flexbox to vertically center content */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.container {
+    flex: 1; /* Allow the container to grow and take up available space */
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #222; /* Slightly darker gray header background */
+    color: #fff; /* White text color for the header */
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0; /* Reduced margin for simplicity */
+}
+
+main {
+    max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333; /* Slightly lighter gray background for content */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Slightly darker shadow */
+}
+
+.skills {
+    margin: 20px 0;
+    background-color: #222; /* Slightly darker gray background for the "Skills" section */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    color: #fff; /* White text color for section headings */
+}
+
+.skills ul {
+    list-style-type: disc; /* Use disc bullets for better readability */
+    padding-left: 20px; /* Adjust left padding for better alignment */
+}
+
+.skills li {
+    font-size: 18px;
+    margin: 10px 0; /* Increased margin for better spacing */
+}
+
